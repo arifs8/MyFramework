@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.fitnesse:fitnesse:20180127">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fitnesse/fitnesse/20180127/28c973bb4923e4a1a8b03cff61cb1ec1dd61873c/fitnesse-20180127.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.fitnesse/fitnesse/20180127/8290173ab785dfb57355d32dac1b141eb0a6c2aa/fitnesse-20180127-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

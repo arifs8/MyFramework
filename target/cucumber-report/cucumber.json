@@ -1,0 +1,198 @@
+[ {
+  "line" : 3,
+  "elements" : [ {
+    "start_timestamp" : "2021-01-12T06:42:03.520Z",
+    "before" : [ {
+      "result" : {
+        "duration" : 17000000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Hooks.init()"
+      }
+    }, {
+      "result" : {
+        "duration" : 5505000000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Hooks.openBrowser()"
+      }
+    } ],
+    "line" : 21,
+    "name" : "User is able to downlaod DDD files",
+    "description" : "",
+    "id" : "e2e-run-for-vehicle-generation;user-is-able-to-downlaod-ddd-files;;2",
+    "after" : [ {
+      "result" : {
+        "duration" : 1000000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Hooks.afterScenario(io.cucumber.java.Scenario)"
+      }
+    }, {
+      "result" : {
+        "duration" : 1000000,
+        "status" : "passed"
+      },
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Hooks.AfterSteps()"
+      }
+    } ],
+    "type" : "scenario",
+    "keyword" : "Scenario Outline",
+    "steps" : [ {
+      "result" : {
+        "duration" : 6910000000,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "open the provided url",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Login.loginStepDef.opentheprovidedurl()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1343000000,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "enter \"continental\" \"continental\" and \"continental\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "continental",
+          "offset" : 7
+        }, {
+          "val" : "continental",
+          "offset" : 21
+        }, {
+          "val" : "continental",
+          "offset" : 39
+        } ],
+        "location" : "com.web.ui.step_Definitions.Login.loginStepDef.enterand(java.lang.String,java.lang.String,java.lang.String)"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 41508000000,
+        "status" : "passed"
+      },
+      "line" : 8,
+      "name" : "login successful",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Login.loginStepDef.login_successful()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 8358000000,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "click on computer downloads button",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Download.downloadStepDef.clickOnComputerDownloadsButton()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 11118000000,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "click on download from computer OK button",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Download.downloadStepDef.clickOnDownloadFromComputerOkButton()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 6100000000,
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "click on vehicle tab",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Vehicles.legalVehicleStepDef.click_on_vehicle_tab()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 6248000000,
+        "status" : "passed"
+      },
+      "line" : 12,
+      "name" : "click on search bar and enter vehicle number \"VS HW 602\"",
+      "match" : {
+        "arguments" : [ {
+          "val" : "VS HW 602",
+          "offset" : 46
+        } ],
+        "location" : "com.web.ui.step_Definitions.Vehicles.legalVehicleStepDef.click_on_search_bar(java.lang.String)"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 108000000,
+        "status" : "passed"
+      },
+      "line" : 13,
+      "name" : "Select the vehicle",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Vehicles.legalVehicleStepDef.select_the_vehicle()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 83000000,
+        "status" : "passed"
+      },
+      "line" : 14,
+      "name" : "select legal archieve tab",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Vehicles.legalVehicleStepDef.select_legal_archieve_tab()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 406000000,
+        "status" : "passed"
+      },
+      "line" : 15,
+      "name" : "select month",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Vehicles.legalVehicleStepDef.select_month()"
+      },
+      "keyword" : "And "
+    }, {
+      "result" : {
+        "duration" : 136000000,
+        "status" : "passed"
+      },
+      "line" : 16,
+      "name" : "click on details",
+      "match" : {
+        "location" : "com.web.ui.step_Definitions.Vehicles.legalVehicleStepDef.click_on_details()"
+      },
+      "keyword" : "Then "
+    } ],
+    "tags" : [ {
+      "name" : "@E2E"
+    } ]
+  } ],
+  "name" : "E2E run for Vehicle Generation",
+  "description" : "",
+  "id" : "e2e-run-for-vehicle-generation",
+  "keyword" : "Feature",
+  "uri" : "file:src/test/resources/features/Functional/E2E.feature",
+  "tags" : [ {
+    "name" : "@E2E",
+    "type" : "Tag",
+    "location" : {
+      "line" : 1,
+      "column" : 1
+    }
+  } ]
+} ]
